@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link href="../css/magnific-popup.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/7c885ebbcd.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/a26d9146a0.js" crossorigin="anonymous"></script>
+    <script src="../js/wow.js"></script>
+    <!-- <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.14/css/lightgallery.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.14/js/lightgallery-all.min.js"></script>
+    <link rel="stylesheet" href="../css/animate.css">
+
+</head>
+
+<body>
+    <section id="photos-category-page-wrapper">
+        <section id="navigation-wrapper" class="navigation-wrap start-header start-style">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-md  header-sticky">
+                            <div class="container">
+                                <a class="navbar-brand" href="index.html" target="_blank"><img
+                                        src="../image/logo/logofinal4.png" alt=""></a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav ml-auto py-4 py-md-0">
+                                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+                                            <a class="nav-link" href="index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                            <a class="nav-link" href="photos-category.html">Photos</a>
+                                        </li>
+
+                                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                            <a class="nav-link" href="index.html#about-us">About</a>
+                                        </li>
+                                        <!-- <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                                                aria-haspopup="true" aria-expanded="false">Pages <span class="ml-1"><i
+                                                                        class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+                                                            <div class="dropdown-menu">
+                                                                <a class="dropdown-item" href="pricing.html">Pricing</a>
+                                                                <a class="dropdown-item" href="login-register.html">Login/Register</a>
+                                                            </div>
+                                                        </li> -->
+                                        <!-- <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                                            <a class="nav-link" href="blog.html">Blog</a>
+                                                        </li> -->
+                                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                            <a class="nav-link" href="contact.html">Contact</a>
+                                        </li>
+                                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                            <a class="nav-link" href="#" data-toggle="modal"
+                                                data-target=".bd-example-modal-lg">Book Us</a>
+                                            <!-- Modal -->
+                                            <!-- Popup Modal Starts -->
+                                            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
+                                                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg"
+                                                    role="document">
+                                                    <div class="modal-content px-3">
+                                                        <div class="modal-header ">
+                                                            <h5 class="modal-title font-weight-bold text-uppercase"
+                                                                id="exampleModalLongTitle">Book an
+                                                                Event with us
+                                                            </h5>
+                                                            <button type="button" class="close" data-dismiss="modal"
+                                                                aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <form>
+                                                                <div class="form-row w-100 justify-content-between">
+                                                                    <div class="form-group col-6">
+                                                                        <label for="inputEmail4">Name</label>
+                                                                        <input type="email" class="form-control"
+                                                                            id="inputEmail4" placeholder="Full Name">
+                                                                    </div>
+                                                                    <div class="form-group col-6">
+                                                                        <label for="phonenumber">Number</label>
+                                                                        <input type="email" class="form-control"
+                                                                            id="inputEmail4"
+                                                                            placeholder="Contact Number">
+                                                                    </div>
+                                                                    <div class="form-group col-12">
+                                                                        <label for="inputState">Event Options</label>
+                                                                        <select id="inputState" class="form-control">
+                                                                            <option selected>Choose...</option>
+                                                                            <option>Rice Feeding</option>
+                                                                            <option>Post Weeding</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div
+                                                                        class="side-select-option d-flex justify-content-between align-items-center w-100 px-2 mb-3">
+                                                                        <div class="form-check form-check-inline">
+                                                                            <input class="form-check-input"
+                                                                                type="checkbox" id="inlineCheckbox1"
+                                                                                value="option1">
+                                                                            <label class="form-check-label"
+                                                                                for="inlineCheckbox1">Bride</label>
+                                                                        </div>
+                                                                        <div class="form-check form-check-inline">
+                                                                            <input class="form-check-input"
+                                                                                type="checkbox" id="inlineCheckbox2"
+                                                                                value="option2">
+                                                                            <label class="form-check-label"
+                                                                                for="inlineCheckbox2">Groom</label>
+                                                                        </div>
+                                                                        <div class="form-check form-check-inline">
+                                                                            <input class="form-check-input"
+                                                                                type="checkbox" id="inlineCheckbox3"
+                                                                                value="option3">
+                                                                            <label class="form-check-label"
+                                                                                for="inlineCheckbox3">Both Side</label>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="form-group col-12">
+                                                                        <label for="eventlocation">Choose Event
+                                                                            Location</label>
+                                                                        <iframe
+                                                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56516.31625951286!2d85.29111323130881!3d27.708955944406398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198a307baabf%3A0xb5137c1bf18db1ea!2sKathmandu%2044600!5e0!3m2!1sen!2snp!4v1632634404381!5m2!1sen!2snp"
+                                                                            style="border:0;" allowfullscreen=""
+                                                                            loading="lazy"></iframe>
+                                                                        <!-- <div id="mapCanvas"></div> -->
+                                                                        <!-- <div id="infoPanel">
+                                                                                                           
+                                                                                                                <b>Posisi Lat Long:</b>
+                                                                                                                <div id="info"></div>
+                                                                                                                <b>URL:</b>
+                                                                                                                <a href="" id="url"
+                                                                                                                    target="_blank">openMap</a>
+                                                                                                             
+                                                                                                            </div> -->
+                                                                    </div>
+                                                                    <div class="form-group col-12">
+
+                                                                        <label for="exampleFormControlTextarea1">Your
+                                                                            Message</label>
+                                                                        <textarea class="form-control"
+                                                                            id="exampleFormControlTextarea1" rows="3"
+                                                                            placeholder="Details..."></textarea>
+
+                                                                    </div>
+
+
+                                                                    <div class="form-group col-6">
+                                                                        <label for="eventdate">Choose Event
+                                                                            Start Date</label>
+
+                                                                        <input type="date" class="form-control" />
+
+                                                                    </div>
+                                                                    <div class="form-group col-6">
+                                                                        <label for="eventdate">Choose Event
+                                                                            End Date</label>
+
+                                                                        <input type="date" class="form-control" />
+
+                                                                    </div>
+                                                                    <button type="button"
+                                                                        class="btn btn-primary m-auto">Book
+                                                                        Us</button>
+                                                                </div>
+
+
+
+
+                                                            </form>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Popup Modal Ends -->
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="photo-category" class="default-padding position-relative">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12 wow fadeInUp">
+                        <div class="image-block position-relative mb-4">
+                            <a href="photos.html"><img src="../image/category/martinity.jpg" alt="" class="img-fluid">
+                                <div class="overlay">
+                                    <h3 class="mb-0 text">Martinity</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12 wow fadeInUp">
+                        <div class="image-block position-relative mb-4">
+                            <a href="photos.html"><img src="../image/category/travel.jpg" alt="" class="img-fluid">
+                                <div class="overlay">
+                                    <h3 class="mb-0 text">Travel</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12 wow fadeInUp">
+                        <div class="image-block position-relative mb-4">
+                            <a href="photos.html"><img src="../image/category/weeding.jpg" alt="" class="img-fluid">
+                                <div class="overlay">
+                                    <h3 class="mb-0 text">Weeding</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12 wow fadeInUp">
+                        <div class="image-block position-relative mb-4">
+                            <a href="photos.html"><img src="../image/category/ricefeeding.jpg" alt="" class="img-fluid">
+                                <div class="overlay">
+                                    <h3 class="mb-0 text">Rice Feeding</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12 wow fadeInUp">
+                        <div class="image-block position-relative mb-4">
+                            <a href="photos.html"><img src="../image/category/treeking.jpg" alt="" class="img-fluid">
+                                <div class="overlay">
+                                    <h3 class="mb-0 text">Treeking</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12 wow fadeInUp">
+                        <div class="image-block position-relative mb-4">
+                            <a href="photos.html"><img src="../image/category/event.jpg" alt="" class="img-fluid">
+                                <div class="overlay">
+                                    <h3 class="mb-0 text">Event</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12 wow fadeInUp">
+                        <div class="image-block position-relative mb-4">
+                            <a href="photos.html"><img src="../image/category/musicvideo.jpg" alt="" class="img-fluid">
+                                <div class="overlay">
+                                    <h3 class="mb-0 text">Music Video</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12 wow fadeInUp">
+                        <div class="image-block position-relative mb-4">
+                            <a href="photos.html"><img src="../image/category/audio.jpg" alt="" class="img-fluid">
+                                <div class="overlay">
+                                    <h3 class="mb-0 text">Audio Production</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section id="footer" class="py-4 position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-2">
+                    <div class="footer-logo text-center m-auto text-white">
+                        <a href="index.html"> <img src="../image/logo/logofinal4.png" class="img-fluid" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-12 m-auto">
+                    <div class="text-center text-white mb-2">
+                        <a href="index.html"><span class="mr-1">©</span> Corprew Audio Video Pvt. Ltd.2020</span> </a>
+
+                    </div>
+                </div>
+                <div class="col-12 m-auto">
+                    <div class="social-media d-flex justify-content-center align-items-center">
+                        <div class="icon mr-2 text-white"><i class="fa fa-youtube-play" aria-hidden="true"></i></div>
+                        <div class="icon mr-2 text-white"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                        <div class="icon mr-2 text-white"><i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+
+    <script src="../js/scripts/main.js"></script>
+
+</body>
+
+</html>
